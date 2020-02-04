@@ -1,0 +1,14 @@
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\bin\Debug\TeamBuilderTool.exe.config
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\bin\Debug\TeamBuilderTool.exe
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\bin\Debug\TeamBuilderTool.pdb
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\TeamBuilderTool.csprojAssemblyReference.cache
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\MainWindow.g.cs
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\App.g.cs
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\TeamBuilderTool_MarkupCompile.cache
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\TeamBuilderTool_MarkupCompile.lref
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\MainWindow.baml
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\TeamBuilderTool.g.resources
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\TeamBuilderTool.Properties.Resources.resources
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\TeamBuilderTool.csproj.GenerateResource.cache
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\TeamBuilderTool.exe
+C:\Entwicklung\TeamBuilder_Projekt\TeamBuilderTool\obj\Debug\TeamBuilderTool.pdb
