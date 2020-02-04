@@ -1,0 +1,47 @@
+﻿<Window x:Class="TeamBuilderTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeamBuilderTool"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Open" Grid.Row="1" Grid.Column="1" Command="{Binding OpenFileCommand}" Height="70" HorizontalAlignment="Left" Width="70" Margin="0,0,0,10"/>
+        <TextBox Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="6" Text="{Binding DataPath}" HorizontalAlignment="Stretch" TextAlignment="Left"  Height="70" Margin="10,0,0,10"/>
+
+        <Button Content="Save" Grid.Row="2" Grid.Column="1" Command="{Binding SaveFileCommand}" HorizontalAlignment="Left" Height="70" Width="70" Margin="0,0,0,10"/>
+        <Button Content="Add" Grid.Row="2" Grid.Column="2" Command="{Binding AddElementCommand}" HorizontalAlignment="Left" Height="70" Width="70" Margin="10,0,0,10"/>
+        <Button Content="GO" Grid.Row="2" Grid.Column="6" Command="{Binding ExecuteCommand}" HorizontalAlignment="Right" Height="70" Width="70" Margin="0,0,0,10"/>
+
+        <ListBox Grid.Row="3" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Button Content="Move R" Grid.Row="3" Grid.Column="4" Command="{Binding MoveElementRightCommand}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="70" Width="70" Margin="10,150,10,10"/>
+        <ListBox Grid.Row="3" Grid.Column="5" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+
+        <Button Content="Move L" Grid.Row="4" Grid.Column="4" Command="{Binding MoveElementLeftCommand}" HorizontalAlignment="Center" VerticalAlignment="Center" Height="70" Width="70"/>
+
+        <Button Content="Delete" Grid.Row="5" Grid.Column="4" Command="{Binding DeleteElementCommand}" Height="70" Width="70"/>
+        
+    </Grid>
+</Window>
